@@ -16,9 +16,9 @@ However, the app contains extensive unit testing, particularly probabilistic uni
 
 Demo
 -----------
-A typical output looks like the image below. 
+A typical output looks like the image below:
  
-![Output from django cluster](http://i.imgur.com/Tugs7FC.png "Output from django clusters")
+![Output from django clusters](http://i.imgur.com/Tugs7FC.png)
 
 
 Quick start
