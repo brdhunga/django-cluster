@@ -1,20 +1,35 @@
 =====
-Polls
+Django Clusters
 =====
 
-Polls is a simple Django app to conduct Web-based polls. For each
-question, visitors can choose between a fixed number of answers.
+Django clusters is a django app that use multidimensional scaling to group articles, blogs or any kind of document to cluster by similarity. 
 
 Detailed documentation is in the "docs" directory.
 
-Quick start
+
+Warning
 -----------
 
-1. Add "polls" to your INSTALLED_APPS setting like this::
+This app is in very alpha version, and therefore I have not included a setup.py packaging. 
+
+However, the app contains extensive unit testing, particularly probabilistic unit testing. Therefore, feel free to browse docs and see how various components can be tested at various level. 
+
+Demo
+-----------
+A typical output looks like the image below. 
+ 
+![Output from django cluster](http://i.imgur.com/Tugs7FC.png "Output from django clusters")
+
+
+Quick start
+-----------
+1. Add "djano_clusters" in your root project folder.
+
+2. Add "django_clusters" to your INSTALLED_APPS setting like this::
 
     INSTALLED_APPS = [
         ...
-        'polls',
+        'django_clusters',
     ]
 
 2. Include the polls URLconf in your project urls.py like this::
