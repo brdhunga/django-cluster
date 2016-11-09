@@ -50,7 +50,17 @@ Quick start
 
 Settings
 -----------
-Your settings.py file (or whatever you use as your main settings file) need to contain the following settings. 
+Your settings.py file (or whatever you use as your main settings file) need to contain the following settings. DC_TITLE_FIELD is the main title field that shows up as the titles in the visualization.  DC_CONTENT_FIELD is the main content field. DC_MODEL is the model that will contain the above two fields. 
+  
+    DC_MODEL = 'blog.Blog' # app.model
+    DC_CONTENT_FIELD = 'content'
+    DC_TITLE_FIELD = 'title'
+    DC_SLUG_FIELD = 'slug'
+    DC_SVG_WIDTH = 1000
+    DC_SVG_HEIGHT = 400
+
+
+
 
 
 
